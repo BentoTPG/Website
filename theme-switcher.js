@@ -3,9 +3,9 @@ function switchFavicon() {
     const favicon = document.getElementById('favicon');
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         // เปลี่ยนเป็น Favicon สำหรับ Dark Mode
-        favicon.setAttribute('href','/images/favicon_invert.ico');
+        favicon.setAttribute('href','./images/favicon_invert.ico');
     } else {
-        favicon.setAttribute('href','/images/favicon.ico');
+        favicon.setAttribute('href','./images/favicon.ico');
     }
 }
 
