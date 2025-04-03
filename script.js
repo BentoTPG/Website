@@ -17,3 +17,7 @@ function copyText() {
     // Optionally alert the user
     alert("Copied: bentotpg");
 }
+
+function comingsoon(){
+    alert("Sorry,This will coming soon");
+}
